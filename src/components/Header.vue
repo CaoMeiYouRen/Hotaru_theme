@@ -4,7 +4,7 @@
       <h1 class="ui inverted header">
         Server Status
       </h1>
-      <p>Servers' Probes Set up with ServerStatus</p>
+      <p>服务器状态监控</p>
     </div>
   </div>
 </template>
@@ -20,7 +20,8 @@ export default defineComponent({
   height: 25rem;
   position: relative;
   /*Replace your header image at this place!*/
-  background: url("../assets/img/cover.png") no-repeat center center;
+  background: url("../assets/img/cover.jpg") no-repeat center center;
+  background-size: 100%;
 }
 
 #header::before {

@@ -1,6 +1,6 @@
 <template>
   <p>
-    若長時間出現此消息，請確保您已啟用Javascript！<br>否則雲監控主服務（服務端）未啟動或已關閉。
+     如果出现此消息，请确保您已启用Javascript！ <br />否则云监控主服务（服务端）未启动或已关闭.
   </p>
 </template>
 <script lang="ts">
@@ -13,7 +13,7 @@ export default defineComponent({
 <style scoped>
 p {
   text-align: center;
-  color: #616366;
+  color: red;
   margin-bottom: 0;
 }
 </style>
